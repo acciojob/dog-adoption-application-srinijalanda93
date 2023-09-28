@@ -1,2 +1,34 @@
-
-/* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+	font-family:candara;
+	font-size:30px;
+}
+#box{
+	display:flex;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+label{
+	margin:2px 0px 2px 1px;
+	font-style:italic;
+	font-weight:600;
+} 
+#submit{
+	margin:10px 0px 2px 1px;
+	background-color:hotpink;
+	border:none;
+	width:100px;
+	border-radius:3px;
+}
+input{
+	border-radius:5px;
+	border-color:pink;
+	boder-width:10px;
+}
+#submit:hover{
+	background-color:lightseagreen;
+}
